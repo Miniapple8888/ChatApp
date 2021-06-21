@@ -1,0 +1,84 @@
+.ChatUI {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px;
+    width: 100%;
+}
+
+.current-person {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 0.25px solid #79797B;
+    padding: 12px 0;
+}
+
+.current-person .image {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.current-person .profile {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin-left: 16px;
+}
+
+.profile-text h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profile-text p {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profile-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date {
+    text-align: center;
+    margin: 32px auto;
+    color: #79797B;
+}
+
+.chat {
+    flex-grow: 3;
+    overflow: scroll;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: row;
+    border-top: 0.25px solid #79797B;;
+    padding: 8px 0;
+}
+
+.chat-box input {
+    flex-grow: 3;
+    outline: none;
+    border: none;
+    margin: 0 8px;
+    font-size: 16px;
+}
+
+.chat-box a {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: black;
+}

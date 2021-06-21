@@ -1,0 +1,37 @@
+.FriendList {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 348px;
+    border-right: 1px solid black;
+}
+
+.tab-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    padding-top: 36px;
+}
+
+.tab-name h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tab-name .tab-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section .section-name {
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    padding: 16px;
+    font-size: 16px;
+    color: #79797B;
+}
+
+.section {
+    margin-top: 24px;
+}

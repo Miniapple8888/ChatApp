@@ -1,0 +1,46 @@
+.Convo {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    padding: 8px 16px;
+}
+
+.Convo .profile {
+    width: 48px;
+    height: 48px;
+}
+
+.Convo .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin-left: 16px;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.up h3 {
+    font-size: 18px;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.up p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    color: #79797B;
+}
+.message {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}

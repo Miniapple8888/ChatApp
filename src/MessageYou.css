@@ -1,0 +1,25 @@
+.MessageYou {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+    margin: 8px 0 8px 148px;
+    border-radius: 32px 32px 5px 32px;
+    background: rgb(212,11,116);
+    background: linear-gradient(90deg, rgba(212,11,116,1) 0%, rgba(240,144,40,1) 100%);
+}
+
+.MessageYou p {
+    margin: 0;
+}
+
+.small-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.small-detail p {
+    font-size: 12px;
+}

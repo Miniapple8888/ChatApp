@@ -1,0 +1,27 @@
+.SideBar {
+    display: flex;
+    flex: 0 0 74px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    border-right: 1px solid #79797B;
+}
+
+.SideBar a {
+    display: block;
+    padding: 16px;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.profile {
+    border-radius: 50%;
+    background-image: url(itperson.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}

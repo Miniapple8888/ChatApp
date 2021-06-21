@@ -1,0 +1,21 @@
+.MessageGroup {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+}
+
+.MessageGroup .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 8px;
+}
+
+.MessageGroup .profile {
+    width: 48px;
+    height: 48px;
+}
+
+.profile-message {
+    margin-left: 12px;
+}
